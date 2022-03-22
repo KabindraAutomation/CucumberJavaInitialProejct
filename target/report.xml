@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="0.356">
+    <testcase classname="Application Login" name="Home page default Login" time="0.085">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login into application with "Jon" and password "1234".............passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 2" time="0.004">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login into application with "John" and password "SmokePuk"........passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 3" time="0.004">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User sign up with following detail.....................................passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 4" time="0.005">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login into application with "John" and password "PukiMobile"......passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 5" time="0.004">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login into application with "JohnzMobile" and password "PukiSmoke".passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 6" time="0.004">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login in to application with User1 and Password1234...............passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 7" time="0.002">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login in to application with User2 and Password12345..............passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 8" time="0.002">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login in to application with User3 and Password123456.............passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application Login" name="Home page default Login 9" time="0.003">
+        <system-out><![CDATA[Given User in NetBanking Landing page.......................................passed
+When User login in to application with User4 and Password1234567............passed
+Then HomePage is populated..................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
